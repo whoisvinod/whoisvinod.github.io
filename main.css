@@ -44,6 +44,9 @@ li {
     margin-bottom: 20px;
 }
 
+
+
+
 /*-----nav-----*/
 nav {
     height: 100px;
@@ -60,6 +63,9 @@ nav a:nth-child(2) {
     float: right;
 }
 
+
+
+
 /*-----header-----*/
 header {
     margin: 100px 0 200px 0;
@@ -74,15 +80,21 @@ header a {
     text-decoration: none;
 }
 
+
+
+
 /*-----work-----*/
 .work {
     text-align: center;
     width: 100%;
 }
+
 .work a img {
     margin: 1%;
     width: 45%;
 }
+
+
 
 /*-----whatIDO-----*/
 .whatIdo {
@@ -104,6 +116,10 @@ header a {
     z-index: -1; 
 }
 
+
+
+
+
 /*-----work2-----*/
 .work2 {
     width: 100%;
@@ -114,6 +130,9 @@ header a {
     width: 50%;
 }
 
+
+
+
 /*-----footer-----*/
 footer {
     text-align: center;
@@ -122,6 +141,10 @@ footer {
 footer p {
     color: #404348;
 }
+
+
+
+
 
 /*-----Responsive-----*/
 @media only screen and (max-width:991px) {
