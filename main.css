@@ -87,15 +87,48 @@ header a {
 
 
 
-/*-----work-----*/
-.work {
+/*-----Major Work-----*/
+
+.work1 {
     text-align: center;
     width: 100%;
 }
-
-.work a img {
+.work1 h1{
+    font-size: 30px;
+    margin-right: 37%;
+}
+.work1 a img {
     margin: 1%;
     width: 45%;
+}
+.work1 p {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+
+.work2 {
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+}
+.work2 h1{
+    font-size: 30px;
+    margin-right: 33%;
+}
+.work2 a img {
+    margin: 1%;
+    width: 45%;
+}
+.work2 p {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+
 }
 
 
@@ -124,16 +157,49 @@ header a {
 
 
 
-/*-----work2-----*/
-.work2 {
+/*-----Minor Work-----*/
+
+.work3 {
     width: 100%;
     text-align: center;
+    margin-top: 10%;
 }
-.work2 a img {
+.work3 h1{
+    font-size: 30px;
+    margin-right: 42%;
+}
+.work3 a img {
     margin: 1%;
     width: 50%;
 }
+.work3 p {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
 
+}
+
+.work4 {
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+.work4 h1{
+    font-size: 30px;
+    margin-right: 42%;
+}
+.work4 a img {
+    margin: 1%;
+    width: 50%;
+}
+.work4 p {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
 
 
 
