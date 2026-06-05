@@ -53,10 +53,10 @@ function renderPortfolio() {
                 <div class="timeline-header">
                     <span class="role">${project.title}</span>
                 </div>
-                <p>${project.description}</p>
-                <div style="margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-                    ${project.tech.map(t => `<span style="font-size: 0.8rem; background: rgba(255,255,255,0.1); padding: 0.2rem 0.8rem; border-radius: 20px;">${t}</span>`).join('')}
-                </div>
+                <a href="${project.video}" target="_blank" class="project-thumbnail-link">
+                    <img src="${project.thumbnail}" alt="${project.title}" class="project-thumbnail">
+                </a>
+                <p style="white-space: pre-line;">${project.description}</p>
             `;
             projectsContainer.appendChild(item);
         });
@@ -109,11 +109,23 @@ function renderPortfolio() {
     Object.entries(profileData.contact).forEach(([key, value]) => {
         const item = document.createElement('div');
         item.className = 'contact-item';
-        // Capitalize first letter
-        const label = key.charAt(0).toUpperCase() + key.slice(1);
+        
+        let label = key.charAt(0).toUpperCase() + key.slice(1);
+        let content = `<p>${value}</p>`;
+        
+        if (key === 'email') {
+            content = `<p><a href="mailto:${value}" class="contact-link">${value}</a></p>`;
+        } else if (key === 'phone') {
+            const cleanPhone = value.replace(/\s+/g, '');
+            content = `<p><a href="tel:${cleanPhone}" class="contact-link">${value}</a></p>`;
+        } else if (key === 'linkedin') {
+            const url = value.startsWith('http') ? value : `https://${value}`;
+            content = `<p><a href="${url}" target="_blank" class="contact-link">${value}</a></p>`;
+        }
+        
         item.innerHTML = `
             <h3>${label}</h3>
-            <p>${value}</p>
+            ${content}
         `;
         contactContainer.appendChild(item);
     });

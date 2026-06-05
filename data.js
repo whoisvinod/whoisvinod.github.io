@@ -1,24 +1,23 @@
 const profileData = {
     name: "Vinod Akula",
-    title: "Senior Unity Developer | AR/VR Specialist",
+    title: "Senior Unity Developer | XR Engineer | Technical Leadership",
     summary: "Experienced Augmented Reality (AR) and Virtual Reality (VR) Software Engineer with a demonstrated history of working in the computer software industry. Skilled in Unity3D, Android, Java, AR, VR, and C#. 9 years of software industry experience with 7+ years specialized as a Unity Developer. Strong engineering professional with a Bachelor of Technology focused in Electronics and Communications Engineering.",
     contact: {
         email: "vinodakula.coder@gmail.com",
         phone: "+91 7207795126",
         linkedin: "linkedin.com/in/vinod-akula-78506b13a",
-        github: "github.com/vinodakula", // Placeholder as it wasn't in PDF
-        location: "Pune, Maharashtra, India"
+        location: "Hyderabad, India"
     },
     skills: [
         "Unity3D", "C#", "Augmented Reality (AR)", "Virtual Reality (VR)",
         "Android Development", "Java", "Game Development",
-        "Generative AI", "Python", "Data Science"
+        "Generative AI"
     ],
     experience: [
         {
             role: "Senior Unity Developer",
             company: "Immersive Vision Technology Pvt Limited",
-            period: "May 2022 - Present",
+            period: "May 2022 - April 2026",
             description: "Leading AR/VR development initiatives and delivering high-quality immersive solutions."
         },
         {
@@ -56,14 +55,22 @@ const profileData = {
     ],
     projects: [
         {
-            title: "Immersive AR/VR Experiences",
-            description: "Developed content related to both Gaming and Non-Gaming industries, leveraging Unity3D to create engaging virtual environments.",
-            tech: ["Unity", "C#", "XR Interaction Toolkit"]
+            title: "NextMeet",
+            description: "NextMeet is an Avatar based Immersive PC / VR Platform that enables remote working, collaboration, meetings, distance learning & networking for business, education & events. A virtual experience for workers, attendees, students to meet & socialize from across the world.\n\nWhat I learnt from it: Multiplayer networking using Photon (Realtime, Audio and Chat).",
+            thumbnail: "files/NextMeet_Exhibit_Hall.jpg",
+            video: "files/NextMeet_Intro.mp4"
         },
         {
-            title: "Generative AI Integration",
-            description: "Explored and implemented Generative AI tools to enhance development workflows and create dynamic content.",
-            tech: ["Python", "AI Tools", "LLMs"]
+            title: "SportemonGo",
+            description: "SportemonGo is a full end-to-end sports ecosystem and platform that is going to revolutionize sports, fan engagement, AR physical and virtual experiences, interactive gaming, NFT collectibles, betting, fantasy sports, esports, virtual sports, and more sport experiences.\n\nWhat I learnt from it: Firebase SDK, Post-processing effects (Bloom, Fog), Unity XR Interaction Toolkit (for VR device simulation).",
+            thumbnail: "files/SportemonGO_Main_Image.png",
+            video: "files/SportemonGO_Video.mp4"
+        },
+        {
+            title: "Rugby AR",
+            description: "This is an AR version of a rugby game. Players can play in both Single-Player mode (vs AI) and Multi-Player mode (vs another player). Players score points either by kicking a ball through goal posts or by taking the ball to the opposite side and placing a touchdown.\n\nWhat I learnt from it: Post-processing effects (Bloom), Input System 2.0, ML-Agents.",
+            thumbnail: "files/RugbyAR_Main_Image.png",
+            video: "files/RugbyAR_Video.mp4"
         }
     ],
     awards: [
