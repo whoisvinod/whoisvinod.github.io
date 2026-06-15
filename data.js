@@ -1,7 +1,7 @@
 const profileData = {
     name: "Vinod Akula",
     title: "Senior Unity Developer | XR Engineer | Technical Leadership",
-    summary: "Experienced Augmented Reality (AR) and Virtual Reality (VR) Software Engineer with a demonstrated history of working in the computer software industry. Skilled in Unity3D, Android, Java, AR, VR, and C#. 10.5 years of software industry experience with 9+ years specialized as a Unity Developer. Strong engineering professional with a Bachelor of Technology focused in Electronics and Communications Engineering.",
+    summary: "Experienced Augmented Reality (AR) and Virtual Reality (VR) Software Engineer with a demonstrated history of working in the computer software industry. Skilled in Unity3D, Android, Java, AR, VR, and C#. 10+ years of software industry experience with 9+ years specialized as a Unity Developer. Strong engineering professional with a Bachelor of Technology focused in Electronics and Communications Engineering.",
     contact: {
         email: "vinodakula.coder@gmail.com",
         phone: "+91 7207795126",
