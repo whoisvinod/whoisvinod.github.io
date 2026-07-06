@@ -53,9 +53,7 @@ function renderPortfolio() {
                 <div class="timeline-header">
                     <span class="role">${project.title}</span>
                 </div>
-                <a href="${project.video}" target="_blank" class="project-thumbnail-link">
-                    <img src="${project.thumbnail}" alt="${project.title}" class="project-thumbnail">
-                </a>
+                <!-- Project thumbnails and video playback temporarily disabled -->
                 <p style="white-space: pre-line;">${project.description}</p>
             `;
             projectsContainer.appendChild(item);
