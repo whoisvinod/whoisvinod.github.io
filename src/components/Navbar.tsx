@@ -70,7 +70,7 @@ const Navbar = () => {
           VKA
         </a>
         <a
-          href="mailto:redoyanul1234@gmail.com"
+          href="mailto:vinodakula.coder@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
